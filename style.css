@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Balsamiq+Sans&family=Bebas+Neue&family=Black+Ops+One&family=Fasthand&family=Kanit:ital,wght@1,300&family=Montserrat:ital,wght@1,300&family=Oswald:wght@600&family=Playfair+Display:ital@1&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-color: brown;
+  --font1: "Baloo 2", cursive;
+}
+
+span {
+  font-weight: bold;
+}
+
+.hor {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.hor h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navitation {
+  /* height: 45px; */
+  /* background-color: rgb(252, 249, 249); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  font-family: var(--font1);
+  padding: 9px;
+}
+
+.nav-left {
+  font-size: 50px;
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+}
+
+.nav-left ul li a:hover {
+  font-weight: bolder;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .nav-right {
+} */
+
+.btn {
+  padding: 0 15px;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: var(--font1);
+  transition: all 0.3 ease-in-out;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+
+.form-input {
+  padding: 3px 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: var(--font1);
+}
+
+.content {
+  height: 100%;
+  /* background-color: violet; */
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  padding: 9px;
+}
+
+.blog-post-content{
+  margin: auto;
+  width: 80vw;
+  /* background-color: aquamarine; */
+  max-width: 60vw;
+  padding: 20px;
+  font-family: var(--font1);
+}
+
+.blog-post-content h1{
+  text-align: center;
+}
+
+.blog-post-content p{
+  font-size: 23px;
+}
+
+.contact-content {
+  /* height: 345px; */
+  background-image: url('https://cdn.pixabay.com/photo/2018/09/24/10/19/system-3699542_640.jpg');
+  /* background-repeat: no-repeat; */
+  margin: auto;
+  width: 80vw;
+  color: white;
+  display: flex;
+  padding: 9px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.meraman {
+  margin: auto;
+  width: 80vw;
+  
+}
+
+.content-left {
+  font-family: var(--font1);
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 223px;
+  width: 334px;
+}
+
+.home-articles {
+  /* height: 433px; */
+  /* background-color: rgb(243, 172, 172); */
+  margin: auto;
+  width: 80vw;
+  font-family: var(--font1);
+  padding-top: 12px;
+  position: relative;
+}
+
+.year-box{
+  position: absolute;
+  width: 234px;
+  height: 255px;
+  /* background-color: red; */
+  right: 112px;
+  top: 100px;
+  font-size: 21px;
+}
+
+.year-box div{
+  margin: 12px 0;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.home-article img {
+  height: 234px;
+  width: 399px;
+}
+
+.home-article-content {
+  /* align-self: center; */
+  padding: 25px 0;
+}
+
+.home-article-content a {
+  text-decoration: none;
+  color: rgb(10, 1, 21);
+}
+
+.just {
+  height: 45px;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.go {
+  /* background-color: blue; */
+  height: 45px;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(15, 0, 0);
+  flex-direction: column;
+}
+
+.go a {
+  color: rgb(6, 0, 0);
+}
+
+.form-box input,
+textarea {
+  width: 52vw;
+  padding: 0px 6px;
+  margin: 7px 0;
+  font-size: 18px;
+  font-family: var(--font1);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.contact-form{
+  height: 80vh;
+}
+
+.post-img{
+  height: 404px;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+.post-img img{
+  width: 100%;
+}
+
+.row{
+  display: flex;
+}
+
+.blogpost-meta{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+
+.author-info{
+  margin: 12px 0;
+}
+
+.author-info div{
+  padding: 4px 0px;
+  font-family: var(--font1);
+}
